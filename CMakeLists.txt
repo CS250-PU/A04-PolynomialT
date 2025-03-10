@@ -16,10 +16,14 @@ add_subdirectory(googletest)
 
 set (Headers
     include/SampleClass.h
+    include/Term.h 
+    include/Polynomial.h
 )
 
 set (Sources
     src/SampleClass.cpp
+    src/Term.cpp 
+    src/Polynomial.cpp
 )
 
 add_library(${This} STATIC ${Sources} ${Headers})
